@@ -16,6 +16,7 @@ async function main() {
                 email: adminEmail,
                 name: "Admin User",
                 password: hashedPassword,
+                role: "ADMIN",
                 tasks: {
                     create: [
                         { title: "First Task", description: "This was created via seed", status: "PENDING" },

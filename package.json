@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "install-all": "npm install",
+    "setup": "node setup-env.js ",
+    "seed": "npm run seed -w backend",
     "dev": "npm run dev --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
     "test:backend": "npm run test -w backend",
