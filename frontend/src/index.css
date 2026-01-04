@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+form, ul {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+}
