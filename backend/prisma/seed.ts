@@ -26,7 +26,15 @@ async function main() {
             },
         });
 
-        console.log("Seed successful: Created admin and initial tasks");
+        console.log(`
+Seed successful!
+-----------------------------------------
+Admin User Created:
+Email:    admin@example.com
+Password: admin123
+-----------------------------------------
+Initial tasks have been populated.
+`);
     } else {
         console.log("Seed skipped: User already exists");
     }
