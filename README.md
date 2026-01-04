@@ -47,7 +47,9 @@ npm run build
 npm run start
 ```
 
-
+**Default Credentials:**
+* **Email:** `admin@example.com`
+* **Password:** `admin123`
 
 ---
 
